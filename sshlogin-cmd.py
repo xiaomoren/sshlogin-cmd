@@ -48,7 +48,7 @@ def main():
     if ip==None or username ==None or passwd == None:
         print parser.usage
     else:
-        m=input()
+        m=raw_input()
         ssh2(ip, username, passwd, m)
 
 if __name__=="__main__":
